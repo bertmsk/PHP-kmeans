@@ -10,9 +10,6 @@ if test "$PHP_KMEANS" != "no"; then
   PHP_SUBST(KMEANS_SHARED_LIBADD)
   PHP_ADD_INCLUDE(/usr/local/include)
   PHP_ADD_INCLUDE(.)
-  PHP_ADD_INCLUDE(./src)
-
-  AC_DEFINE(HAVE_OPENCV, 1, [ ])
   
   CFLAGS="$CFLAGS -Wall -fno-strict-aliasing"
   
