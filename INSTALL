@@ -1,0 +1,5 @@
+phpize
+
+./configure --with-kmeans
+
+make && make install
